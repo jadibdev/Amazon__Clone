@@ -1,26 +1,40 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Header from "./Header";
+import Home from "./Home";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<Router>
+			<div className='app'></div>
+			<Switch>
+				<Route path='/checkout'>
+					<Home />
+					<h1>Checkout</h1>
+				</Route>
+				<Route path='/login'>
+					<h1>Log In</h1>
+				</Route>
+				<Route path='/'>
+					<Header />
+					<Home />
+				</Route>
+			</Switch>
+		</Router>
+	);
 }
+
+/* const firebaseConfig = {
+  apiKey: "z``zzzxxz
+  ]waAIzaSyBdr9H6RJ4drakuBELaoUqa3vM7Q6lkJUM",
+  authDomain: "clone-c4606.firebaseapp.com",
+  databaseURL: "https://clone-c4606.firebaseio.com",
+  projectId: "clone-c4606",
+  storageBucket: "clone-c4606.appspot.com",
+  messagingSenderId: "15027551924",
+  appId: "1:15027551924:web:517cd71592043455f361e1",
+  measurementId: "G-EJV5R8Y852"
+}; */
 
 export default App;
