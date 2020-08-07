@@ -1,5 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
+This project is an Amazon clone built with React & Firebase, please feel free to give any feedback if you like :-)
 ## Available Scripts
 
 In the project directory, you can run:
