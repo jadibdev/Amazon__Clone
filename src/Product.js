@@ -18,6 +18,19 @@ function Product({ id, title, image, price, rating }) {
 			},
 		});
 	};
+
+	{
+		/* Oh wow, I was trying to debug this all night, 
+            I’m still working on the shopping basket it turns out 
+            the solution is simply a number generator, I tried to use id, 
+            price and rating as keys but the console always replied with a
+             “Warning: Encountered two children with the same key”  
+             though all these values were unique, it drove me absolutely nuts. 
+             This morning I thought why not forget all these values, 
+             obviously they are not recognized as unique somehow, so I just passed a Math.random()
+             and BAM!!! The error disappeared and my next coffee sip felt epic!!!
+			 */
+	}
 	return (
 		<div className='product'>
 			<div className='product__info'>
