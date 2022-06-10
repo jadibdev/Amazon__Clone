@@ -1,4 +1,7 @@
-This project is an Amazon clone built with React & Firebase, please feel free to give any feedback if you like :-)
+### Description
+
+This project aims to replicate the Amazon website, it is built with REACTjs and deployed on Google Firebase, the main features are authenticated login implemented with firestore and the shopping basket implemented with React Context API.
+
 ## Available Scripts
 
 In the project directory, you can run:
