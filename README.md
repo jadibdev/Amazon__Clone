@@ -3,9 +3,9 @@
 This project aims to replicate the Amazon website, it is built with REACTjs and deployed on Google Firebase, the main features are authenticated login implemented with firestore and the shopping basket implemented with React Context API.
 
 ### Built with
-Javascript
-Google Firebase
-React
+- Javascript
+- Google Firebase
+- React
 
 ## Available Scripts
 
