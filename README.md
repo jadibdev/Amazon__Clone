@@ -4,6 +4,7 @@ This project aims to replicate the Amazon website, it is built with REACTjs and 
 
 ### Built with
 - Javascript
+- Context API
 - Google Firebase
 - React
 
