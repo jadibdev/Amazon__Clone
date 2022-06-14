@@ -1,6 +1,6 @@
 ### Description
 
-This project aims to replicate the Amazon website functionality,the main features are authenticated login and the shopping basket. the features are implemented using Javascript, REACT, the context API and Google Firebase
+This project aims to replicate the Amazon website functionality,the main features are authenticated login and the shopping basket. The features are implemented using Javascript, REACT, the context API and Google Firebase
 
 ### Tools
 - Javascript
